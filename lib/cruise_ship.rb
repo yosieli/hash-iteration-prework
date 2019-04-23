@@ -12,6 +12,7 @@ def select_winner(passengers)
   select_winner.each do|suit,name|
   if suit==suite_a && name.start_with?("A")
     winner=name
+  end
 end
 winner
 end
